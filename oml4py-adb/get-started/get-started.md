@@ -23,15 +23,15 @@ In this lab, you will learn how to:
 
 You create notebooks in Oracle Machine Learning Notebooks. You can access Oracle Machine Learning Notebooks from Autonomous Database.
 
-1. Sign into your OCI account, click the hamburger on the left to open the left navigation pane, and click **Oracle Database**. On the right pane under Autonomous Database, click **Autonomous Data Warehouse**.
+1. Sign into your OCI account, click the hamburger on the left to open the left navigation pane, and click **Oracle Database**. On the right pane, click **Autonomous Database**.
 
-    ![Autonomous Data Warehouse](images/adw.png " ")
+    ![Autonomous Data Warehouse](images/database-adw.png " ")
 
-2. The Autonomous Database dashboard lists all the databases that are provisioned in the tenancy. Click the Oracle Autonomous Database that you have provisioned.
+2. The Autonomous Database dashboard lists all the databases that are provisioned in the tenancy. Select the compartment corresponding to the provisioned Live Labs instance, and click the Oracle Autonomous Database name.
 
     ![ Oracle Autonomous Database instance](images/provisioned-adb.png " ")
 3. On the Autonomous Database details page, click **Database Actions**. The Oracle Database Actions Launchpad page opens in a separate tab.
-    ![ Database Actions](images/database_actions.png " ")
+    ![ Database Actions](images/launchdbactions.png " ")
 
 4. On the Database Actions page, go to the **Development** section and click **Oracle Machine Learning**. This opens the Oracle Machine Learning Sign In page.
     ![ Oracle Machine Learning](images/adb-dev-oml.png " ")
@@ -47,10 +47,10 @@ You create notebooks in Oracle Machine Learning Notebooks. You can access Oracle
 ## Task 2: Get familiar with OML Notebooks
 
 <if type="freetier">
-1. [**CLICK HERE** to download a ZIP file with all the notebooks we will use for these Labs (in JSON format)](./../notebooks/oml4py_labs_freetier.zip?download=1) which contain the notebooks for the Labs.  Save it to your local machine and __extract them__ to a memorable place.
+1. [**CLICK HERE** to download a ZIP file with all the notebooks we will use for these Labs (in JSON format)](https://objectstorage.us-ashburn-1.oraclecloud.com/p/ObYrokq6yrucExLyb3ZPwhJ59Xv-Gyjwp8t8LlotAdnwSqxs9qQpd3gYScMtDYRB/n/adwc4pm/b/OML_Data/o/oml4py_labs_freetier.zip?download=1) which contain the notebooks for the Labs.  Save it to your local machine and __extract them__ to a memorable place.
   </if>
 <if type="livelabs">
-1. [**CLICK HERE** to download a ZIP file with all the notebooks we will use for these Labs (in JSON format)](./../notebooks/oml4py_labs_livelabs.zip?download=1) which contain the notebooks for the Labs.  Save it to your local machine and __extract them__ to a memorable place.
+1. [**CLICK HERE** to download a ZIP file with all the notebooks we will use for these Labs (in JSON format)](https://objectstorage.us-ashburn-1.oraclecloud.com/p/Lcj3ZhWo5n0vCRZ-XU-2SneV7yipVsGzjm3QX2_TWp9IRxdSsH6htceUJRZmOI31/n/adwc4pm/b/OML_Data/o/oml4py_labs_livelabs.zip?download=1) which contain the notebooks for the Labs.  Save it to your local machine and __extract them__ to a memorable place.
   </if>
 
 > **NOTE:** If you have problems with downloading and extracting the ZIP file, please [**CLICK HERE** to download the "Lab 1: Get Started with OML4Py on Autonomous Database" notebook in JSON format](./../notebooks/lab1_get_started.json?download=1) which contains the notebook version of Lab1, save it to your local machine and import it as illustrated below.
@@ -179,4 +179,4 @@ You can now *proceed to the next lab*.
 ## Acknowledgements
 * **Authors** - Marcos Arancibia, Product Manager, Machine Learning; Moitreyee Hazarika, Principal User Assistance Developer
 * **Contributors** -  Mark Hornick, Senior Director, Data Science and Machine Learning; Sherry LaMonica, Principal Member of Tech Staff, Machine Learning; Jie Liu, Data Scientist
-* **Last Updated By/Date** - Moitreyee Hazarika, July 2022
+* **Last Updated By/Date** - Marcos Arancibia and Sherry LaMonica, July 2022
